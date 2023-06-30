@@ -1,8 +1,11 @@
-import React from 'react'
+import './home.scss';
+import Sidebar from '../../components/sidebar/Sidebar';
 
-function Home() {
+export function Home() {
     return (
-        <div>Home</div>
+        <div className="home">
+            <Sidebar/>
+        </div>
     )
 }
 
