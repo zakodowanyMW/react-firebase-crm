@@ -1,6 +1,9 @@
 .home {
-    background-color: palevioletred;
-    .title {
-        color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    .homeContainer {
+        background-color: goldenrod;
+        flex: 1;
     }
 }

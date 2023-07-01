@@ -4,7 +4,8 @@ import Sidebar from '../../components/sidebar/Sidebar';
 export function Home() {
     return (
         <div className="home">
-            <Sidebar/>
+            <Sidebar />
+            <div className="homeContainer">countainer</div>
         </div>
     )
 }
